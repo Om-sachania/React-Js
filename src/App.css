@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.display-Flex{
+  display: flex;
+}
+
+.displayFlex-Column{
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  border:2px solid red;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  border: 2px solid black;
+  height: 500px;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0,0%,95%)
+}
+
+.calculator{
+  /* border: 1px solid blue; */
+  padding: 24px;
+  gap: 28px;
+  font-size: 24px;
+}
+
+.convertedAmount{
+  display: none;
+}
+
+.amountInputField , .convertBtn{
+  padding: 6px;
+}
+
+.convertBtn{
+  border: transparent;
+  background-color: rgb(78, 168, 247);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+:disabled{
+  background-color: gray;
+  color: black;
+}
+
+.currency-selector{
+  justify-content: space-between;
+}
